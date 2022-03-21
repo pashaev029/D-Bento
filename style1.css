@@ -1,0 +1,227 @@
+.year {
+  font-size: 2rem !important;
+  color: #c79a39 !important;
+  margin-top: 15px;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+#cadnew {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+  margin-left: 22%;
+}
+.one-right-fish {
+  padding: 10px;
+  margin: 10px;
+}
+#threeC {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardone {
+  width: 60%;
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 0 !important;
+  padding-right: 10px !important;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.cardtwo {
+  width: 60%;
+  background-color: white;
+  padding: 0px !important;
+  padding-bottom: 0 !important;
+  /* padding-right: 10px !important; */
+  display: flex;
+  flex-direction: row;
+  /* margin: 19px; */
+}
+.oneleft {
+  width: 50%;
+}
+.cardone img {
+  width: 100%;
+}
+.cardtwo img {
+  width: 100%;
+}
+.oneright {
+  width: 50%;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.oneright h2 {
+  font-size: 1rem;
+  color: #464646;
+  font-family: "Mochiy Pop One", sans-serif;
+  padding-top: 0px !important;
+  z-index: 999;
+}
+.prc {
+  font-size: 1.5rem !important;
+}
+
+.oneright p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #6f6f6f;
+  font-size: 16px;
+}
+
+#cadnew {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 0 !important;
+  margin-left: 22%;
+}
+.cardnew {
+  margin-left: 20%;
+}
+#card-main-card {
+  width: 23rem;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .cardBG {
+    overflow: hidden;
+  }
+  .card-img-top {
+    width: 97%;
+  }
+  #card-text-inner {
+    padding: 10px;
+  }
+  .fiveGallery {
+    background-image: none !important;
+    width: 100% !important;
+  }
+  #myImg {
+    margin-left: 15px;
+    max-width: 342px;
+  }
+  .myImg {
+    max-width: 342px !important;
+  }
+  .secondOne {
+    width: 100%;
+  }
+  #scnd-two-cardBG {
+    width: 100% !important;
+  }
+  #scnd-two-cardBGT {
+    width: 100% !important;
+  }
+  #scnd-two-cardBGTHREE {
+    width: 100% !important;
+  }
+  .cardone {
+    width: 90%;
+    padding: 0px;
+    padding-bottom: 0 !important;
+    padding-right: 0px !important;
+    display: flex;
+    flex-direction: row;
+  }
+  #cardnew {
+    margin-left: 0 !important;
+    margin: 0 !important;
+  }
+  .cardnew {
+    margin-left: 0px;
+  }
+  .threepage {
+    width: 100%;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .cardone {
+    width: 90% !important;
+  }
+  .cardtwo {
+    width: 90% !important;
+  }
+  .outBody {
+    width: 100%;
+  }
+  #five-gallery {
+    width: 100% !important;
+  }
+
+  #three-card-five {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  #card-body-five {
+    width: 100% !important;
+    padding: 10px;
+  }
+  .one-right-fish {
+    padding: 0px;
+    margin: 0px;
+  }
+  .secondTwo {
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  #scndTwo {
+    width: 100% !important;
+    margin: 0px !important;
+  }
+  #five-two-cardBGTHREE {
+    width: 100% !important;
+  }
+  .fiveCard {
+    width: 100% !important;
+  }
+  .fiveCenter {
+    width: 80% !important;
+  }
+  #out-two-cardBGTHREE {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+  #card-bg-second-two {
+    width: 100% !important;
+  }
+  #card-bg-second-three {
+    width: 100% !important;
+  }
+  #card-bg-second-four {
+    width: 100% !important;
+  }
+  .cardBG {
+    width: 100% !important;
+    padding-left: 10px !important;
+    width: 23.3rem !important;
+  }
+  .sixPageInner {
+    width: 100%;
+    margin-left: -4px !important;
+  }
+  #InPage {
+    margin-left: 0px !important;
+  }
+
+  #cardIn {
+    width: 21rem;
+  }
+  #mainCard {
+    width: 100% !important;
+    margin-left: 0%;
+  }
+}

@@ -1,0 +1,1263 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+}
+.back {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden !important;
+}
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.container-fluid {
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.logo {
+  padding-top: 1.3%;
+}
+.dbento {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 60px;
+}
+.main::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 71px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background-color: black;
+  opacity: 0.2;
+}
+.nav {
+  width: 65%;
+}
+.list {
+  width: 100%;
+}
+.list ul {
+  width: 100%;
+  display: flex;
+  margin-bottom: 0 !important;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+.list ul li {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 1.6px;
+  padding: 28px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  transition: all 0.1s ease-in-out;
+}
+.fa-chevron-down {
+  font-size: 15px;
+}
+a {
+  color: white;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #ddd;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  position: absolute;
+  background-color: gray;
+  min-width: 160px;
+  left: 25px;
+  top: 71px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  display: none;
+}
+.dropdown-content a {
+  color: black;
+  padding: 15px 20px;
+  text-decoration: none !important;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none !important;
+}
+.dropdown:hover .dropdown-content {
+  display: block !important;
+}
+.RESERVATION {
+  border: 2px solid #c79a39;
+  padding: 15px !important;
+  margin-top: -10px !important;
+}
+.burger {
+  width: 35% !important;
+  /* height: 500px !important; */
+  position: absolute !important;
+  right: 0px;
+  top: 0px;
+  background-color: white;
+  transform: translate(480px);
+  transition: 0.4s;
+  color: black;
+}
+.images {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px !important;
+  margin-left: 40px !important;
+}
+
+.burger img {
+  width: 90px;
+  height: 70px;
+  margin: 10px;
+}
+.cros {
+  font-size: 25px;
+  padding-left: 90%;
+  padding-top: 10px;
+}
+.burger h1 {
+  font-size: 1.8rem;
+  font-family: "Sofia", cursive;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+.icons {
+  width: 60%;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 20px;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  transition: 0.4s;
+}
+.icons i {
+  transition: 0.6s;
+}
+.icons i:hover {
+  border-radius: 50%;
+  border: 1px solid #6f6f6f;
+  padding: 4px;
+}
+.bars {
+  color: white;
+  margin-top: 25px;
+}
+
+body {
+  position: relative;
+}
+
+body {
+  background: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.textCenter {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  color: white;
+  z-index: 9999;
+}
+.textCenter h2 {
+  font-size: 30px;
+  font-family: "Mochiy Pop One", sans-serif;
+  color: white;
+  line-height: 28px;
+  font-weight: 900;
+}
+.textCenter p {
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.textCenter a {
+  padding: 13px 36px !important;
+  background: #af872f;
+  cursor: pointer;
+  font-size: 11pt !important;
+  font-weight: 700;
+  text-align: center;
+}
+.swiper-slide {
+  opacity: 0.2;
+  z-index: 1;
+}
+.secondPage {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.secondPage h2 {
+  font-size: 3.3rem;
+  color: #464646;
+  font-family: "Mochiy Pop One", sans-serif;
+  padding-bottom: 15px;
+}
+.secondPage p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #6f6f6f;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  padding-top: 15px;
+}
+.cardOne {
+  text-align: center;
+}
+.cardOne h3 {
+  color: #464646;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 20px;
+}
+.cardOne p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #6f6f6f;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.cardBG {
+  width: 23.9rem !important;
+  padding-left: 5px !important;
+  background-color: #fcfcfc;
+  border: none;
+}
+.cardOne a {
+  padding: 13px 36px !important;
+  background: #af872f;
+  cursor: pointer;
+  font-size: 11pt !important;
+  font-weight: 700;
+  text-align: center;
+}
+.secondTwo {
+  margin-left: 80px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.threePage {
+  width: 100%;
+  background-image: url(img/bgfoodicon.png);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  z-index: 1;
+  padding-bottom: 70px;
+}
+.threePage h2 {
+  font-size: 2.6rem;
+  color: white;
+  font-family: "Mochiy Pop One", sans-serif;
+  padding-bottom: 15px;
+  padding-top: 45px;
+  z-index: 999;
+}
+.threePage img {
+  padding-bottom: 30px;
+  z-index: 999;
+}
+.price {
+  font-size: 2rem !important;
+  color: #c79a39 !important;
+  margin-top: 15px;
+}
+.shrimp {
+  font-size: 2rem !important;
+  color: #464646 !important;
+  margin-top: 5px !important;
+  padding-top: 0 !important;
+}
+.threePage p {
+  color: #6f6f6f;
+}
+.card {
+  width: 23.9rem !important;
+}
+.cardMain {
+  padding-left: 70px !important;
+  padding-right: 70px !important;
+}
+#mainCard {
+  width: 60% !important;
+  margin-left: 20%;
+}
+.four {
+  flex-direction: column;
+}
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg:hover {
+  opacity: 0.7;
+}
+.myImg:hover {
+  opacity: 0.7;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999999;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+.caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+.modal-content,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+.fiveGallery {
+  width: 100%;
+  background-image: url(img/wallrepeat.png);
+  padding: 20px 100px;
+  display: flex;
+}
+.fiveCard {
+  text-align: center;
+}
+.fiveCard .cardMain {
+  padding: 0 !important;
+}
+.fiveCard h2 {
+  font-size: 1.6rem;
+  color: white;
+  font-family: "Mochiy Pop One", sans-serif;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  z-index: 999;
+}
+.fiveCard img {
+  padding-bottom: 30px;
+  z-index: 999;
+}
+.fiveCard .price {
+  font-size: 1rem !important;
+  color: #c79a39 !important;
+  margin-top: 15px;
+}
+.fiveCard .shrimp {
+  font-size: 1rem !important;
+  color: #464646 !important;
+  margin-top: 5px !important;
+  padding-top: 0 !important;
+}
+.fiveCard p {
+  color: #6f6f6f;
+}
+.fiveRight {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fiveRight .cardMain {
+  padding: 0 !important;
+  text-align: center;
+}
+.fiveRight .price {
+  font-size: 1rem !important;
+  color: #c79a39 !important;
+  margin-top: 5px;
+}
+.fiveRight .shrimp {
+  font-size: 1rem !important;
+  color: #464646 !important;
+  margin-top: 5px !important;
+  padding-top: 0 !important;
+}
+.fiveRight p {
+  color: #6f6f6f;
+}
+.fiveRight .cardMain h2 {
+  font-size: 1.6rem;
+  color: white;
+  font-family: "Mochiy Pop One", sans-serif;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  z-index: 999;
+}
+.fiveCenter {
+  width: 53% !important;
+  display: flex;
+  flex-direction: column;
+}
+.justTag {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+.justTag a {
+  padding: 13px 36px !important;
+  background: #af872f;
+  cursor: pointer;
+  font-size: 11pt !important;
+  font-weight: 700;
+  text-align: center;
+}
+.sixPage {
+  width: 100%;
+  background-image: url(img/bgfoodicon.png);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+  z-index: 1;
+  padding-bottom: 70px;
+  padding-top: 110px;
+}
+.sixPageInner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 30px;
+}
+.sixPage .threeCard {
+  margin-right: 30px;
+}
+.sixPage h2 {
+  font-size: 2.6rem;
+  color: white;
+  font-family: "Mochiy Pop One", sans-serif;
+  padding-bottom: 15px;
+  padding-top: 0px !important;
+  z-index: 999;
+}
+.sixPage img {
+  padding-bottom: 30px;
+  z-index: 999;
+}
+.sixPage .check img {
+  padding-top: 20px !important;
+}
+#cardIn {
+  color: #6f6f6f;
+  font-family: "Mochiy Pop One", sans-serif;
+  padding: 20px !important;
+  line-height: 25px;
+}
+
+#personImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  overflow: hidden;
+  margin: 10px auto 15px;
+}
+#person {
+  width: 100%;
+}
+#PersonName {
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+}
+.foot {
+  width: 100%;
+  background-image: url(img/bgfoodicon.png);
+  margin-top: 110px;
+  display: flex;
+  padding: 80px 100px !important;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.foot h2 {
+  font-size: 1.6rem;
+  color: white;
+  font-family: "Mochiy Pop One", sans-serif;
+  padding-bottom: 15px;
+  padding-top: 0px !important;
+  z-index: 999;
+}
+.foot p {
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+.footLeft a {
+  color: #c79a39;
+  font-size: 1.2rem !important;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+}
+.footCenter {
+  background-color: black;
+  padding: 45px 60px;
+}
+.footCenter img {
+  padding-bottom: 20px !important;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.footCenter span {
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.days {
+  padding-right: 30px;
+}
+.time {
+  padding-left: 30px;
+}
+#bookIN {
+  padding: 13px 36px !important;
+  background: #af872f;
+  cursor: pointer;
+  font-size: 11pt !important;
+  font-weight: 700;
+  text-align: center;
+}
+#book {
+  margin-top: 35px !important;
+}
+.footEnd a {
+  color: #c79a39;
+  font-size: 1.2rem !important;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+}
+.footer {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  color: #dddddd;
+}
+.footer p {
+  margin-bottom: 0 !important;
+  padding: 26px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 5px;
+  transition: 0.4s;
+}
+#myBtn:hover {
+  background-color: #af872f;
+}
+.foodi {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 25%;
+  cursor: pointer;
+}
+.foodi h2 {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+  font-family: "Mochiy Pop One", sans-serif;
+  z-index: 999;
+}
+.line {
+  width: 100%;
+  background-color: #c79a39;
+  height: 7px;
+  display: none;
+}
+#line {
+  display: block;
+}
+
+.clsModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* height: 100%;  */
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-describe {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+.closed {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.closed:hover,
+.closed:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.inpText {
+  width: 90%;
+  padding-left: 30px;
+  display: flex;
+}
+.inpText input {
+  width: 80%;
+  margin: 8px 8px;
+  padding: 8px;
+}
+input::placeholder {
+  font-size: 16px;
+}
+textarea {
+  resize: none;
+}
+.txt {
+  padding-left: 37px;
+  margin-top: 8px;
+}
+.reg {
+  padding: 13px 36px !important;
+  background: #af872f;
+  cursor: pointer;
+  font-size: 11pt !important;
+  font-weight: 700;
+  text-align: center;
+  margin: 15px !important;
+  margin-top: 20px !important;
+}
+.send {
+  width: 90%;
+  padding-top: 30px;
+  margin-left: 33%;
+  padding-bottom: 20px;
+}
+.reserv {
+  width: 90%;
+  text-align: center;
+  margin-top: 60px;
+  padding-left: 40px;
+}
+.closeD {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.closeD:hover,
+.closeD:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.reserv h2 {
+  font-size: 1.6rem;
+  color: #464646;
+  font-family: "Mochiy Pop One", sans-serif;
+  padding-bottom: 15px;
+  padding-top: 0px !important;
+  z-index: 999;
+}
+
+.year {
+  font-size: 2rem !important;
+  color: #c79a39 !important;
+  margin-top: 15px;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+#cadnew {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+  margin-left: 22% !important;
+}
+#threeC {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardone {
+  width: 60%;
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 0 !important;
+  padding-right: 10px !important;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.cardtwo {
+  width: 60%;
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 0 !important;
+  padding-right: 10px !important;
+  display: flex;
+  flex-direction: row;
+  margin: 19px;
+}
+.oneleft {
+  width: 50%;
+}
+.cardone img {
+  width: 100%;
+}
+.cardtwo img {
+  width: 100%;
+}
+.oneright {
+  width: 50%;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.oneright h2 {
+  font-size: 1rem;
+  color: #464646;
+  font-family: "Mochiy Pop One", sans-serif;
+  padding-top: 0px !important;
+  z-index: 999;
+}
+.prc {
+  font-size: 1.5rem !important;
+}
+
+.oneright p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #6f6f6f;
+  font-size: 16px;
+}
+
+#cadnew {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+  margin-left: 22%;
+  padding-left: 25% !important;
+}
+.newbars {
+  display: none;
+  transition: 0.4s;
+}
+#navn {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+  .newbars {
+    display: block;
+    transition: 0.4s;
+  }
+
+  .burger {
+    display: none;
+  }
+  .bars {
+    display: none;
+  }
+  .mobmenu {
+    display: block;
+  }
+  #navn {
+    display: block;
+    height: 45vh;
+    margin-top: 50px;
+    width: 100%;
+    transition: 0.3s;
+    display: none;
+  }
+  .newbars {
+    width: 50%;
+    position: absolute;
+    color: white;
+    top: 22px;
+    right: -120px;
+    transition: 0.3s;
+  }
+  #navn ul {
+    display: block;
+  }
+  #navn ul li {
+    display: block;
+  }
+  .back {
+    width: 50%;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-image: url(img/1.jpg);
+    background-size: 319% 100%;
+    background-position: center;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+  .dbento {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .sticky {
+    display: none;
+  }
+  .sticky + .content {
+    display: none;
+  }
+  .main {
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    padding: 15px;
+  }
+  .main::after {
+    display: none;
+  }
+  .logo {
+    width: 30%;
+    padding-bottom: 10px;
+    margin-left: -72px;
+    padding-left: -70px;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .bars {
+    width: 5%;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+  .textCenter {
+    top: 35%;
+    left: 5%;
+  }
+  .textCenter h2 {
+    font-size: 16px;
+
+    line-height: 28px;
+    font-weight: 900;
+  }
+  .textCenter p {
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .secondTwo {
+    flex-direction: column;
+    width: 70% !important;
+    margin-left: 0px !important;
+  }
+  #second-two-card {
+    width: 100% !important;
+    margin-left: 57px;
+  }
+  #second-two-cardBG {
+    width: 100% !important;
+    margin-left: 57px;
+  }
+  #second-two-cardBGT {
+    width: 100% !important;
+    margin-left: 57px;
+  }
+  .cardOne {
+    width: 100%;
+  }
+  #cardBG {
+    width: 100% !important;
+  }
+  .card-img-top {
+    width: 97% !important;
+  }
+  .threePage {
+    width: 100% !important;
+    display: inline-block;
+    padding-bottom: 90px;
+  }
+  .threeCard {
+    width: 100% !important;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  #mainCard {
+    width: 100% !important;
+    margin-left: 0%;
+  }
+  .cardMain {
+    padding: 0px !important;
+  }
+  #follow-our {
+    padding: 15px;
+  }
+  .card-body {
+    width: 47%;
+    padding: 0px;
+  }
+  #card-body-center {
+    width: 100%;
+  }
+  #bgCard {
+    width: 100% !important;
+  }
+
+  #bgCardT {
+    width: 100% !important;
+    padding-left: 4px !important;
+  }
+  #bgCard_T {
+    width: 100% !important;
+    margin-left: 57px;
+  }
+  #bgCardThree {
+    width: 100% !important;
+  }
+  #bg_Card {
+    width: 100% !important;
+    padding-left: 4px !important;
+    margin-left: 57px;
+  }
+  #bgCard_Three {
+    width: 100% !important;
+    padding-left: 4px !important;
+    margin-left: 57px;
+  }
+  #threecardsh {
+    width: 100% !important;
+  }
+  .fiveGallery {
+    width: 100%;
+    display: inline-block;
+    padding: 0px !important;
+    margin: 0px !important;
+    padding-bottom: 20px !important;
+  }
+  .fiveGallery .card-body {
+    width: 100%;
+  }
+  .fiveCard {
+    width: 90%;
+  }
+  .fiveCard .threeCard {
+    width: 100%;
+  }
+  .fiveCenter {
+    width: 100%;
+    margin: 10% 7%;
+  }
+  .fiveCenter .ImgMod {
+    width: 100%;
+  }
+  .fiveCenter .myImg {
+    width: 100% !important;
+    max-width: 400px;
+  }
+  #cardMain {
+    width: 100% !important;
+    padding: 20px !important;
+    margin: 20px !important;
+    margin-left: 20px !important;
+  }
+  #cardM {
+    width: 100% !important;
+    padding: 20px !important;
+    margin: 20px !important;
+    margin-left: 20px !important;
+  }
+  .fiveRight {
+    width: 100%;
+  }
+  #fivecrd {
+    width: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  #fvcntr {
+    width: 88% !important;
+  }
+  #threecrd {
+    width: 89% !important;
+  }
+  .fiveRight .ImgMod {
+    width: 100%;
+  }
+  .fiveRight .myImg {
+    width: 100% !important;
+    max-width: 400px;
+  }
+  .bgsec {
+    max-width: 355px !important;
+    padding-left: 22px;
+  }
+  #cardma {
+    width: 100% !important;
+    padding: 20px !important;
+    margin: 20px !important;
+    margin-left: 20px !important;
+  }
+  .sixPageInner {
+    display: inline-block;
+    width: 100%;
+  }
+  .sixPage .threeCard {
+    margin-right: 0px !important;
+  }
+  #cardIn {
+    width: 100% !important;
+    padding: 10px !important;
+    text-align: center;
+  }
+  #SixIn .threeCard {
+    width: 100% !important;
+  }
+  .sixPage .threeCard {
+    padding: 10px;
+  }
+  .sixPage .card-body {
+    width: 100%;
+  }
+  .cardBG .card-body {
+    width: 95%;
+    padding-bottom: 25px;
+    padding-top: 10px;
+  }
+  .foot {
+    width: 100%;
+    display: inline-block;
+    padding: 15px !important;
+    margin: 0;
+  }
+  .footCenter {
+    width: 95%;
+    margin: 10px;
+    padding: 10px !important;
+    padding-bottom: 22px !important;
+  }
+  .list {
+    display: inline-block;
+  }
+  .modal-content {
+    margin: 25px;
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    position: relative;
+  }
+  #caption {
+    margin: 0px;
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    color: #ccc;
+    padding: 0;
+    height: 80px;
+  }
+  .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    color: #ccc;
+    padding: 0px;
+    height: 80px;
+  }
+  .close {
+    position: absolute;
+    top: 15px;
+    left: 46%;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  .modal {
+    width: 90%;
+    overflow: hidden;
+  }
+  #myBtn {
+    display: none;
+  }
+}

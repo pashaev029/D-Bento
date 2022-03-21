@@ -1,0 +1,187 @@
+.back {
+  background-image: url(img/breadcumb.jpg);
+}
+.mapouter {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.cntc {
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.npt {
+  width: 45%;
+}
+.pt {
+  width: 45%;
+}
+.us {
+  font-family: "Mochiy Pop One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #6f6f6f;
+  font-size: 25px;
+}
+.str {
+  padding-right: 5px;
+}
+#contact-p {
+  margin-left: 0% !important;
+}
+#faq-text {
+  margin-left: -40px !important;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+textarea {
+  margin-left: 10px;
+  padding: 10px;
+  margin-bottom: 5%;
+}
+.now {
+  padding: 13px 36px !important;
+  background: #af872f;
+  cursor: pointer;
+  font-size: 11pt !important;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+  .burger {
+    display: none;
+  }
+  .back {
+    width: 50%;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-image: url(img/breadcumb.jpg) !important;
+    background-size: 319% 100%;
+    background-position: center;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+  .dbento {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .main {
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    padding: 15px;
+  }
+  .main::after {
+    display: none;
+  }
+  .logo {
+    width: 30%;
+    padding-bottom: 10px;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .bars {
+    width: 5%;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+  .textCenter {
+    top: 35%;
+    left: 5%;
+  }
+  .textCenter h2 {
+    font-size: 16px;
+
+    line-height: 28px;
+    font-weight: 900;
+  }
+  .faqtxt {
+    position: absolute;
+    color: #fff;
+    top: 12%;
+    left: 18% !important;
+    text-align: center;
+  }
+  .faqtxt h2 {
+    font-size: 65px;
+    font-weight: 900;
+  }
+  .faqtxt p {
+    font-size: 22px;
+  }
+  .faq {
+    margin-left: 2%;
+  }
+  .map {
+    width: 100%;
+  }
+  .mapouter {
+    overflow: hidden;
+    width: 100% !important;
+    margin-left: 0%;
+    margin-top: 5%;
+  }
+  .cntc {
+    width: 98%;
+    display: inline-block;
+
+    margin-left: 0%;
+    margin-top: 5%;
+  }
+  .npt {
+    width: 100%;
+    padding: 10px;
+  }
+  .pt {
+    width: 90%;
+  }
+  .us {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #6f6f6f;
+    font-size: 25px;
+  }
+  .str {
+    padding-right: 5px;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+  }
+  textarea {
+    width: 100%;
+    margin-left: 10px;
+    padding: 10px;
+    margin-bottom: 5%;
+    columns: 10 !important;
+  }
+  .now {
+    padding: 13px 36px !important;
+    background: #af872f;
+    cursor: pointer;
+    font-size: 11pt !important;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 2%;
+    margin-bottom: 5%;
+  }
+  .foot {
+    margin-top: 7% !important;
+  }
+}
